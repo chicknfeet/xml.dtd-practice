@@ -1,5 +1,5 @@
-<!ELEMENT company (employee)>
-<!ELEMENT employee (FirstName, LastName, ContactNo, Email, Address)>
+<!ELEMENT Company (Employee)>
+<!ELEMENT Employee (FirstName, LastName, ContactNo, Email, Address)>
 <!ELEMENT FirstName (#PCDATA)>
 <!ELEMENT LastName (#PCDATA)>
 <!ELEMENT ContactNo (#PCDATA)>
