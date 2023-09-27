@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<company>
+    <employee>
+        <FirstName>Jose</FirstName>
+        <LastName>Rizal</LastName>
+        <ContactNo>09123456789</ContactNo>
+        <Email>joserizal@gmail.com</Email>
+        <Address>
+            <city>Orani</city>
+            <State>PH</State>
+            <Zip>2112</Zip>
+        </Address>
+    </employee>
+</company>
