@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Company">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="employee">
+                    <xs:element name="FirstName" type="xs:string">
+                    <xs:element name="LastName" type="xs:string"/>
+                    <xs:element name="ContactNo" type="xs:int"/>
+                    <xs:element name="Address" type="xs:string">
+                        <xs:sequence>
+                            <xs:element name="City" type="xs:string"/>
+                            <xs:element name="State" type="xs:string"/>
+                            <xs:element name="Zip" type="xs:int"/>
+                        </xs:sequence>
+                    </xs:element>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
